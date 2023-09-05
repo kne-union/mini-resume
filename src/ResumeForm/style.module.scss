@@ -1,0 +1,78 @@
+
+.form-field-gender {
+  :global {
+    .adm-list-item-title {
+      margin-bottom: 0 !important;
+    }
+    .adm-list-item-content-main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .adm-space {
+        margin-bottom: 0;
+      }
+      .adm-space-item {
+        padding-bottom: 0;
+      }
+      .adm-selector-item {
+        width: 150px;
+        height: 64px;
+        &.adm-selector-item-active {
+          position: relative;
+          &:after {
+            font-family: "iconfont" !important;
+            content: "\e601";
+            position: absolute;
+            bottom: -6px;
+            right: 0;
+            z-index: 2;
+            color: var(--adm-color-primary);
+          }
+        }
+      }
+    }
+  }
+}
+
+.avatar-box{
+  padding:0 0 32px 0;
+  display: flex;
+  align-items: center;
+  .title-box{
+    margin-left: 16px;
+  }
+  image{
+    width: 96px;
+    height: 96px;
+    border-radius: 48px;
+  }
+  .title {
+    font-size: 36px;
+    font-weight: 500;
+    color: #222222;
+    line-height: 50px;
+  }
+
+  .subtitle {
+    font-size: 28px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 40px;
+  }
+}
+
+
+.btn-list{
+  padding: 0 48px;
+  display: flex;
+
+}
+.flex-1{
+  flex:1;
+  word-break: keep-all;
+  flex-shrink: 0;
+  margin-right: 16px;
+}
+.flex-2{
+  flex: 2;;
+}

@@ -1,0 +1,71 @@
+.relative {
+  position: relative;
+  padding-right: 56px;
+  .more-tag {
+    position: absolute;
+    padding-left: 24px;
+    right: 0;
+    top: 0;
+    margin: 0;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 24px;
+    z-index: 3;
+    font-size: 24px;
+    color: #999;
+  }
+  .more-tag-ellipse {
+    right: 0;
+    :global {
+      .iconfont {
+        color: #666666;
+        font-size: 24px;
+      }
+    }
+  }
+
+  &.no-padding {
+    margin: 0;
+  }
+}
+.tags {
+  overflow: hidden;
+  max-height: 48px;
+  position: relative;
+  transition: max-height 0.5s;
+  &.tags-opened {
+    max-height: 1000px;
+  }
+  .active {
+    color: var(--adm-color-primary) !important;
+    background-color: rgba(92, 184, 178, 0.1) !important;
+    border-color: rgba(92, 184, 178, 0.1) !important;
+  }
+
+
+  .tags-box {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 44px;
+  }
+
+  .tag {
+    border-radius: 24px;
+    border: 2px solid #eee;
+    color: var(--font-color-grey);
+    padding: 0px 16px;
+    font-weight: 400;
+    line-height: 44px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    background-color: #fff;
+    display: inline-block;
+    font-size: 24px;
+    &:active {
+      box-shadow: none;
+    }
+  }
+}
