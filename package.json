@@ -1,5 +1,5 @@
 {
-  "name": "mini-resume",
+  "name": "@kne/mini-resume",
   "version": "1.0.0-alpha.0",
   "dependencies": {
     "@kne/antd-taro": "^1.0.0",
