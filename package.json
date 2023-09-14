@@ -1,11 +1,11 @@
 {
   "name": "@kne/mini-resume",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {
     "@kne/antd-taro": "^1.0.0",
     "@kne/compose": "^0.1.0",
     "@kne/lodash-wechat": "^4.17.21",
-    "@kne/mini-core": "^1.0.2",
+    "@kne/mini-core": "^1.0.4",
     "@kne/react-fetch": "^1.4.2",
     "@kne/react-form-antd-taro": "^1.0.0",
     "classnames": "^2.3.2",

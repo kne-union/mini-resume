@@ -18,7 +18,7 @@ npm i --save @kne/mini-resume
 
 #### 示例代码
 
-- 这里填写示例标题
+- 候选人卡片加高亮
 - 这里填写示例说明
 - miniResume(@kne/mini-resume),miniCore(@kne/mini-core),lodash(lodash)
 
@@ -44,6 +44,45 @@ const BaseExample = () => {
       "photo": null
     }} />
   </HighLightProvider>;
+};
+
+render(<BaseExample />);
+
+```
+
+- 技能加高亮
+- 这里填写示例说明
+- miniResume(@kne/mini-resume),miniCore(@kne/mini-core),lodash(lodash)
+
+```jsx
+const { SkillTag } = miniResume;
+const { HighLightProvider } = miniCore;
+
+const BaseExample = () => {
+  return (
+    <HighLightProvider keyword="测试">
+      <SkillTag data={{
+        skills: [
+          {
+            name: "自动化测试"
+          },
+          {
+            name: "性能测试"
+          },
+          {
+            name: "餐刀"
+          },
+          {
+            name: "接口测试"
+          },
+          {
+            name: "黑河测试"
+          }
+        ],
+        manualTagNames: ["功能测试", "Python"]
+      }} />
+    </HighLightProvider>
+  );
 };
 
 render(<BaseExample />);
