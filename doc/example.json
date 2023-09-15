@@ -2,7 +2,7 @@
   "isFull": false,
   "list": [
     {
-      "title": "这里填写示例标题",
+      "title": "候选人卡片加高亮",
       "description": "这里填写示例说明",
       "code": "./base.js",
       "scope": [
@@ -18,11 +18,26 @@
           "name": "lodash",
           "packageName": "lodash"
         }
-      ],
-      "__scope_notes": {
-        "name": "这里填写包导出名称(这是一个注释字段，需要添加到[scope]中)",
-        "packageName": "这里填写包名(这是一个注释字段，需要添加到[scope]中)"
-      }
+      ]
+    },
+    {
+      "title": "技能加高亮",
+      "description": "这里填写示例说明",
+      "code": "./skillTag.js",
+      "scope": [
+        {
+          "name": "miniResume",
+          "packageName": "@kne/mini-resume"
+        },
+        {
+          "name": "miniCore",
+          "packageName": "@kne/mini-core"
+        },
+        {
+          "name": "lodash",
+          "packageName": "lodash"
+        }
+      ]
     }
   ]
 }

@@ -5,6 +5,7 @@ import classnames from 'classnames';
 import get from 'lodash/get';
 import {Icon} from '@kne/antd-taro';
 import Taro from "@tarojs/taro";
+import { HighLight } from "@kne/mini-core";
 
 const SkillTag = ({ data = {}, showOpen = true, className }) => {
   const { skills, manualTagNames } = data || [];
@@ -57,11 +58,11 @@ const SkillTag = ({ data = {}, showOpen = true, className }) => {
         <View id={"skill_box"} className={style['tags-box']}>
           {(tagAll || []).map(({ type, name, id }) => {
             return (
-              <View key={id} className={classnames(style['tag'],{
+              <HighLight tagName={View} text={name} key={id} className={classnames(style['tag'],{
                 [style['active']]:type===2
               })}>
                 {name}
-              </View>
+              </HighLight>
             );
           })}
         </View>

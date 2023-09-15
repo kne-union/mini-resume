@@ -2,6 +2,7 @@ import './assets/font/iconfont.css';
 import '@kne/antd-taro/dist/index.css';
 import '@kne/react-form-antd-taro/dist/index.css';
 import '@kne/mini-core/dist/index.css';
+import '@kne/mini-resume/dist/index.css';
 import axios from 'axios';
 import {preset as fetchPreset} from '@kne/react-fetch';
 import {Empty, Result} from '@kne/antd-taro';
