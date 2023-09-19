@@ -1,0 +1,468 @@
+{
+  "msg": "",
+  "data": {
+    "id": "214877515565498368",
+    "channel": null,
+    "otherChannelName": null,
+    "createWay": 6,
+    "photo": null,
+    "name": "樊贝贝",
+    "gender": "F",
+    "birth": "1997-08-16T22:45:32.162+08:00",
+    "age": 26,
+    "birthFromAge": true,
+    "degree": 50,
+    "currentLocation": "010",
+    "phoneRegionCode": "CN",
+    "phone": "13537678888",
+    "phoneCheck": {
+      "status": 2,
+      "updatedAt": "2023-09-18T00:01:07.028+08:00"
+    },
+    "virtualPhone": null,
+    "virtualPhoneTime": null,
+    "otherPhoneRegionCode": null,
+    "otherPhone": null,
+    "otherPhoneCheck": null,
+    "email": null,
+    "otherEmail": null,
+    "wechat": null,
+    "cardType": null,
+    "card": null,
+    "nativePlace": null,
+    "marital": null,
+    "race": null,
+    "nationality": null,
+    "politicalStatus": null,
+    "height": null,
+    "weight": null,
+    "currentStatus": 2,
+    "currentType": null,
+    "currentSalary": null,
+    "currentSalaryType": null,
+    "currentSalaryMin": null,
+    "currentSalaryMax": null,
+    "expectedSalary": "20000元/月",
+    "expectedSalaryMin": 20000,
+    "expectedSalaryMax": 20000,
+    "expectedSalaryType": 5,
+    "selfRemark": null,
+    "otherInfo": null,
+    "expectedLocations": [
+      "020"
+    ],
+    "expectedWorkTitle": "编辑",
+    "expectedIndustry": [],
+    "expectedPositionType": null,
+    "workExperience": 4,
+    "workStartTime": "2019-07-01T00:00:00.000+08:00",
+    "works": [
+      {
+        "id": "214877524621000704",
+        "company": "平安银行",
+        "industry": null,
+        "industryCode": null,
+        "type": null,
+        "scale": null,
+        "position": "编辑",
+        "functionCode": "005020158",
+        "department": "-",
+        "rank": null,
+        "salary": null,
+        "salaryType": 7,
+        "salaryMax": null,
+        "salaryMin": null,
+        "reportTo": null,
+        "subordinatesCount": null,
+        "description": "当前在职\n删除\n软件测试工程师\n薪资: -\n下属: -人\n职级:\n-\n汇报对象: -\n工作内容:\n参与产品需求评审、开发设计评审等,提出有效问题超过 20 个; 负责态势监控、探针对接、情报处理等核心模块测试工作,定位测试中遇到的问题,与研发及产品沟通,提交有效 bug 超过 500 个; 整理测试用例输出对应自动化脚本超过 500 个,及脚本后期运维; 与其他产品线对接,及时沟通处理对接相关问题,并帮助其他产品线发现 bug超过 30 个; 测试完成后,进行自我总结,积累测试经验; 版本发布后提供技术支持及处理网上问题; 维护机房相关测试设备搭建测试拓扑。",
+        "departure": "-",
+        "startTime": "2020-11-01T00:00:00.000+08:00",
+        "endTime": null,
+        "soFar": true,
+        "top500": null,
+        "isJoin": null,
+        "isOn": true
+      },
+      {
+        "id": "214877524621000705",
+        "company": "苏州云杉世纪网络科技有限公司",
+        "industry": null,
+        "industryCode": null,
+        "type": null,
+        "scale": null,
+        "position": "编辑",
+        "functionCode": "005020158",
+        "department": "-",
+        "rank": null,
+        "salary": null,
+        "salaryType": 7,
+        "salaryMax": null,
+        "salaryMin": null,
+        "reportTo": null,
+        "subordinatesCount": null,
+        "description": "当前在职\n删除\n软件测试工程师\n薪资: -\n下属: -人\n职级:\n-\n汇报对象: -\n工作内容:\n苏州-工业园区\n职责业绩:\n参与产品需求会议,提出改进意见\n根据产品设计,输出测试用例\n部署及升级测试环境\n执行版本测试,定位测试中遇到的问题,与研发及产品沟通,提交 bug\n执行回归测试\n自动化脚本输出\n版本发布后,验证 patch\n苏州云杉世纪网络科技有限公司\n删除\n编辑\n软件测试工程师\n2019.07-2020.09\n部门: -\n薪资: -\n下属: -人\n行业: -\n职级:\n-\n汇报对象: -\n工作内容:\n参与产品需求会议,提出改进意见,根据产品设计,输出测试用例; 部署及升级测试环境; 执行版本测试,定位测试中遇到的问题,与研发及产品沟通,提交 bug,执行回归测试; 自动化脚本输出; 版本发布后,验证 patch。\n离职原因: -",
+        "departure": "-",
+        "startTime": "2019-07-01T00:00:00.000+08:00",
+        "endTime": null,
+        "soFar": true,
+        "top500": null,
+        "isJoin": null,
+        "isOn": true
+      }
+    ],
+    "projects": [
+      {
+        "id": "214877524621000706",
+        "name": "智能运营系统",
+        "companyName": null,
+        "position": null,
+        "description": "添加\n删除\n编辑\n项目描述:\n项目职务:\n项目描述:",
+        "responsibilities": "项目职责:\n工作描述:负责关联分析引擎优化功能,该功能主要解决了原有引擎无法跨越多个数据源,将多种满足需求数据关联后,产生威胁事件的问题。\n主要职责:\n1)测试 SiddhiQL 处理多种逻辑的数据匹配准确性;\n2)测试 K8S 中对应容器处理数据输出的准确性;\n3)使用测试仪构造流量进行性能测试。",
+        "startTime": "2023-04-01T00:00:00.000+08:00",
+        "endTime": null,
+        "soFar": true
+      },
+      {
+        "id": "214877524621000707",
+        "name": "享道青云数据学习项目",
+        "companyName": null,
+        "position": null,
+        "description": "删除\n编辑\n项目描述:\n项目职务:\n项目描述:\n1)熟悉青云环境,搭建实验拓扑构造流量;\n2)进行兼容性测试,确保原有功能的正常使用。\n显示其他7段项目经历",
+        "responsibilities": "项目职责:\n-\n技能\n添加\ntestlink\n删除\n编辑\n功能测试\n删除\n编辑\n黑盒测试\n删除\n编辑\n软件测试\n删除\n编辑\nbugzilla\n删除\n编辑\n自动化测试\n删除\n编辑\nLinux基本命令\n删除\n编辑\nmysql\n删除\n编辑\nPython\n删除\n编辑\n测试用例\n删除\n编辑\n运维\n删除\n编辑\n产品设计\n删除\n编辑\n性能测试\n删除\n编辑\n技能",
+        "startTime": "2019-07-01T00:00:00.000+08:00",
+        "endTime": null,
+        "soFar": true
+      }
+    ],
+    "educations": [
+      {
+        "id": "214877524621000708",
+        "school": "南京工程学院",
+        "degree": 50,
+        "subject": "网络工程",
+        "unifiedEnrolment": "Y",
+        "startTime": "2015-09-01T00:00:00.000+08:00",
+        "endTime": "2019-06-01T00:00:00.000+08:00",
+        "soFar": null,
+        "is985": null,
+        "is211": null,
+        "two": null,
+        "isStudyAbroad": null,
+        "qs100": null
+      }
+    ],
+    "skills": [
+      {
+        "name": "编辑",
+        "level": null
+      },
+      {
+        "name": "软件测试",
+        "level": null
+      },
+      {
+        "name": "测试用例",
+        "level": null
+      },
+      {
+        "name": "运维",
+        "level": null
+      },
+      {
+        "name": "产品设计",
+        "level": null
+      },
+      {
+        "name": "性能测试",
+        "level": null
+      },
+      {
+        "name": "testlink",
+        "level": null
+      },
+      {
+        "name": "功能测试",
+        "level": null
+      },
+      {
+        "name": "黑盒测试",
+        "level": null
+      },
+      {
+        "name": "bugzilla",
+        "level": null
+      },
+      {
+        "name": "自动化测试",
+        "level": null
+      },
+      {
+        "name": "Linux基本命令",
+        "level": null
+      },
+      {
+        "name": "mysql",
+        "level": null
+      },
+      {
+        "name": "Python",
+        "level": null
+      }
+    ],
+    "languages": [
+      {
+        "name": "普通话",
+        "level": null
+      }
+    ],
+    "trainings": null,
+    "certificates": null,
+    "resumeFiles": {
+      "original": [
+        "xkrP_okBBZgnCXyZF26p"
+      ],
+      "certificate": null,
+      "report": null
+    },
+    "createdBy": {
+      "coId": 1,
+      "orgId": 1,
+      "uid": 2,
+      "appId": 1,
+      "termId": 100002
+    },
+    "folderIds": null,
+    "createdAt": "2023-08-16T22:46:31.942+08:00",
+    "updatedAt": "2023-08-16T22:47:52.402+08:00",
+    "tags": {
+      "industries": [
+        {
+          "tagName": "银行",
+          "tagWeight": 1.0
+        },
+        {
+          "tagName": "-",
+          "tagWeight": 0.6
+        },
+        {
+          "tagName": "互联网/电子商务",
+          "tagWeight": 0.6
+        }
+      ],
+      "posTags": [
+        {
+          "tagName": "编辑",
+          "tagWeight": 2.404451216375828
+        },
+        {
+          "tagName": "内容编辑",
+          "tagWeight": 0.6296169805526733
+        },
+        {
+          "tagName": "内容运营",
+          "tagWeight": 0.551474061012268
+        },
+        {
+          "tagName": "文案编辑",
+          "tagWeight": 0.5508645343780517
+        },
+        {
+          "tagName": "新媒体编辑",
+          "tagWeight": 0.5471451044082641
+        },
+        {
+          "tagName": "网站编辑",
+          "tagWeight": 0.5451678657531738
+        },
+        {
+          "tagName": "文案策划",
+          "tagWeight": 0.5380319881439208
+        },
+        {
+          "tagName": "运营编辑",
+          "tagWeight": 0.5377155303955078
+        },
+        {
+          "tagName": "内容运营编辑",
+          "tagWeight": 0.5306541538238525
+        },
+        {
+          "tagName": "新闻编辑",
+          "tagWeight": 0.5244538307189941
+        }
+      ],
+      "posTypes": [
+        {
+          "tagName": "编辑",
+          "tagWeight": 2.6988510143970093
+        },
+        {
+          "tagName": "网站编辑",
+          "tagWeight": 1.738939330383842
+        },
+        {
+          "tagName": "文案/策划",
+          "tagWeight": 1.0273263429543733
+        },
+        {
+          "tagName": "网站营运专员",
+          "tagWeight": 0.488914926017584
+        },
+        {
+          "tagName": "其他",
+          "tagWeight": 0.2563615695126207
+        }
+      ],
+      "skillsTags": [
+        {
+          "tagName": "编辑",
+          "tagWeight": 0.4973663926124573
+        },
+        {
+          "tagName": "软件测试工程师",
+          "tagWeight": 0.47560470104217534
+        },
+        {
+          "tagName": "测试",
+          "tagWeight": 0.44790138006210334
+        },
+        {
+          "tagName": "自动化",
+          "tagWeight": 0.4218122720718384
+        },
+        {
+          "tagName": "测试设备",
+          "tagWeight": 0.30794739723205566
+        },
+        {
+          "tagName": "研发",
+          "tagWeight": 0.28150734901428226
+        },
+        {
+          "tagName": "兼容性测试",
+          "tagWeight": 0.18691265106201171
+        },
+        {
+          "tagName": "测试环境",
+          "tagWeight": 0.17239120006561282
+        },
+        {
+          "tagName": "回归测试",
+          "tagWeight": 0.1678711175918579
+        },
+        {
+          "tagName": "产品设计",
+          "tagWeight": 0.12751128673553466
+        }
+      ]
+    },
+    "is985": null,
+    "is211": null,
+    "two": null,
+    "qs100": null,
+    "isUnifiedEnrolment": null,
+    "isStudyAbroad": null,
+    "reTag": false,
+    "highlights": [],
+    "risk": [
+      {
+        "code": 9,
+        "tag": "工作空档期",
+        "desc": "候选人毕业后，第一段工作前有1年5个月空档期",
+        "attribute": [
+          "1年5个月"
+        ]
+      }
+    ],
+    "industry": [
+      "互联网/移动互联网/电子商务"
+    ],
+    "function": [
+      "网站编辑",
+      "海外运营"
+    ],
+    "industryCode": [
+      "001001"
+    ],
+    "functionCode": [
+      "005020158",
+      "005020169"
+    ],
+    "expectFunction": [
+      "编辑"
+    ],
+    "expectFunctionCode": [
+      "005020158"
+    ],
+    "expectedIndustryCode": [],
+    "lastAddDate": "2023-08-16T22:47:52.402+08:00",
+    "isAuthorized": false,
+    "candidateUid": null,
+    "resumeLock": null,
+    "isDeleted": null,
+    "manualTagIds": null,
+    "manualTagNames": null,
+    "mergedTo": null,
+    "notes": null,
+    "seqNo": "401801",
+    "primaryTerm": "1",
+    "version": "7",
+    "externalUserId": null,
+    "updatedBy": {
+      "coId": 1,
+      "orgId": null,
+      "uid": 2,
+      "appId": 1,
+      "termId": null
+    },
+    "inAts": true,
+    "completeScore": {
+      "score": 76,
+      "moduleScore": {
+        "skills": 1,
+        "otherInfo": 0,
+        "works": 24,
+        "projects": 8,
+        "languages": 1,
+        "certificates": 0,
+        "expected": 9,
+        "trainings": 0,
+        "personal": 8,
+        "educations": 15,
+        "basic": 10
+      }
+    },
+    "userInfoList": [
+      {
+        "id": 2,
+        "uid": 2,
+        "email": "a@a.com",
+        "phone": "18301771234",
+        "name": "系统管理员",
+        "englishName": "系统管理员",
+        "avatar": "",
+        "gender": "M",
+        "state": 0,
+        "createdAt": "2022-04-15T16:53:25.000+08:00",
+        "isAdmin": 0,
+        "updatedAt": "2022-10-24T13:44:38.000+08:00"
+      }
+    ],
+    "handsOffInfo": {
+      "effect": true,
+      "workExperienceIds": [
+        "214877524621000704"
+      ],
+      "companyNames": [
+        "平安银行"
+      ],
+      "approvalProcessId": null,
+      "approvalStatus": null,
+      "processing": false
+    },
+    "locked": false
+  },
+  "code": 0,
+  "success": true,
+  "failure": false
+}

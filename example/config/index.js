@@ -1,7 +1,9 @@
+const path = require('path');
 const config = {
     projectName: 'example', date: '2023-6-29', designWidth: 750, deviceRatio: {
         640: 2.34 / 2, 750: 1, 828: 1.81 / 2
     }, sourceRoot: 'src', outputRoot: 'dist', plugins: ['@tarojs/plugin-http'], defineConstants: {}, alias: {
+        '@mockData': path.resolve('../doc/mock'),
         'lodash': '@kne/lodash-wechat',
         '@kne/mini-resume/dist/index.css': require.resolve("../../dist/index.css"),
         '@kne/mini-resume': require.resolve("../../dist/index.modern.js"),

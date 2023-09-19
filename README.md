@@ -89,6 +89,42 @@ render(<BaseExample />);
 
 ```
 
+- 基础信息表单
+- 展示基础信息表单
+- miniResume(@kne/mini-resume),miniCore(@kne/mini-core),_resumeData(@mockData/resume.json),lodash(lodash)
+
+```jsx
+const { BasicForm } = miniResume;
+const {data:resumeData} = _resumeData;
+
+const BaseExample = ()=>{
+    return <BasicForm loader={()=>{
+        return resumeData;
+    }}/>
+};
+
+render(<BaseExample />);
+
+```
+
+- 个人信息表单
+- 展示个人信息表单
+- miniResume(@kne/mini-resume),miniCore(@kne/mini-core),_resumeData(@mockData/resume.json),lodash(lodash)
+
+```jsx
+const { PersonalForm } = miniResume;
+const {data:resumeData} = _resumeData;
+
+const BaseExample = ()=>{
+    return <PersonalForm loader={()=>{
+        return resumeData;
+    }}/>
+};
+
+render(<BaseExample />);
+
+```
+
 
 ### API
 
