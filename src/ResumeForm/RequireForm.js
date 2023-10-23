@@ -6,15 +6,22 @@ import {View} from "@tarojs/components";
 import {resumeTransform} from '../transform';
 
 const {
-    Form, FormPart, Input, Selector, SubmitButton, CitySelect, FunctionSelect, IndustrySelect, PhoneNumber
+    Form, FormPart, Input, Selector, SubmitButton, CitySelect, FunctionSelect, IndustrySelect, PhoneNumber, useFormContext
 } = FormInfo;
-const RequireResume = ({data,onLoad}) => {
-    const ref = useRef();
-    const {apis, ajax} = usePreset();
+
+const PhoneInput=({...props})=>{
+    const {openApi}=useFormContext();
 
     useEffect(()=>{
-        onLoad && onLoad();
-    },[onLoad]);
+        openApi?.validateAll();
+    },[]);
+
+    return <PhoneNumber.Item {...props}/>
+}
+
+const RequireResume = ({data}) => {
+    const ref = useRef();
+    const {apis, ajax} = usePreset();
 
     return <Form data={resumeTransform.input(data)} ref={ref} onSubmit={async (formData) => {
         const newForm = Object.assign({}, data, formData);
@@ -47,7 +54,7 @@ const RequireResume = ({data,onLoad}) => {
 
     }}>
         <FormPart list={[<Input.Item name="name" label="姓名" rule="REQ LEN-1-20"/>,
-            <PhoneNumber.Item name="phone" label="手机号" rule="REQ PHONE_NUMBER BLACK_PHONE"/>,
+            <PhoneInput name="phone" label="手机号" rule="REQ PHONE_NUMBER BLACK_PHONE"/>,
             <View className={style['form-field-gender']}>
                 <Selector.Item
                     rule="REQ"
