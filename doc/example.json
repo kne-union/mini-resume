@@ -38,6 +38,52 @@
           "packageName": "lodash"
         }
       ]
+    },
+    {
+      "title": "基础信息表单",
+      "description": "展示基础信息表单",
+      "code": "./base-form.js",
+      "scope": [
+        {
+          "name": "miniResume",
+          "packageName": "@kne/mini-resume"
+        },
+        {
+          "name": "miniCore",
+          "packageName": "@kne/mini-core"
+        },
+        {
+          "name": "_resumeData",
+          "packageName": "@mockData/resume.json"
+        },
+        {
+          "name": "lodash",
+          "packageName": "lodash"
+        }
+      ]
+    },
+    {
+      "title": "个人信息表单",
+      "description": "展示个人信息表单",
+      "code": "./personal-form.js",
+      "scope": [
+        {
+          "name": "miniResume",
+          "packageName": "@kne/mini-resume"
+        },
+        {
+          "name": "miniCore",
+          "packageName": "@kne/mini-core"
+        },
+        {
+          "name": "_resumeData",
+          "packageName": "@mockData/resume.json"
+        },
+        {
+          "name": "lodash",
+          "packageName": "lodash"
+        }
+      ]
     }
   ]
 }
