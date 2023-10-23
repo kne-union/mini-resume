@@ -1,5 +1,5 @@
 import {Button, FixView, FormInfo, usePreset} from '@kne/mini-core';
-import React, {useRef} from 'react';
+import React, {useEffect, useRef} from 'react';
 import style from './style.module.scss';
 import Taro from "@tarojs/taro";
 import {View} from "@tarojs/components";
@@ -8,9 +8,13 @@ import {resumeTransform} from '../transform';
 const {
     Form, FormPart, Input, Selector, SubmitButton, CitySelect, FunctionSelect, IndustrySelect, PhoneNumber
 } = FormInfo;
-const RequireResume = ({data}) => {
+const RequireResume = ({data,onLoad}) => {
     const ref = useRef();
     const {apis, ajax} = usePreset();
+
+    useEffect(()=>{
+        onLoad && onLoad();
+    },[onLoad]);
 
     return <Form data={resumeTransform.input(data)} ref={ref} onSubmit={async (formData) => {
         const newForm = Object.assign({}, data, formData);
@@ -43,7 +47,7 @@ const RequireResume = ({data}) => {
 
     }}>
         <FormPart list={[<Input.Item name="name" label="姓名" rule="REQ LEN-1-20"/>,
-            <PhoneNumber.Item name="phone" label="手机号" rule="REQ PHONE_NUMBER"/>,
+            <PhoneNumber.Item name="phone" label="手机号" rule="REQ PHONE_NUMBER BLACK_PHONE"/>,
             <View className={style['form-field-gender']}>
                 <Selector.Item
                     rule="REQ"
