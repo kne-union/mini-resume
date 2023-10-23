@@ -13,9 +13,10 @@ const PhoneInput=({...props})=>{
     const {openApi}=useFormContext();
 
     useEffect(()=>{
-        openApi?.validateAll();
+        setTimeout(()=>{
+            openApi?.submit();
+        },1000)
     },[]);
-
     return <PhoneNumber.Item {...props}/>
 }
 
