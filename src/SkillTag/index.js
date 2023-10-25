@@ -8,21 +8,21 @@ import Taro from "@tarojs/taro";
 import { HighLight } from "@kne/mini-core";
 
 const SkillTag = ({ data = {}, showOpen = true, className }) => {
-  const { skills, manualTagNames } = data || [];
+  const { tags, manualTagNames } = data || [];
   const [open, setOpen] = useState(false);
   const [showMore,setShowMore]=useState(false);
 
   const tagAll = useMemo(() => {
-    let _skills = skills || [],
+    let _skills = tags?.skillsTags || [],
       _manualTagNames = manualTagNames || [];
     if (get(_skills, 'length') > 0) {
-      _skills = _skills.map((item, index) => ({ name: item?.name, id: `skill_${index}`, type: 1 }));
+      _skills = _skills.map((item, index) => ({ name: item?.tagName, id: `skill_${index}`, type: 1 }));
     }
     if (get(_manualTagNames, 'length') > 0) {
       _manualTagNames = _manualTagNames.map((item, index) => ({ name: item, id: `manual_${index}`, type: 2 })).reverse();
     }
     return _manualTagNames.concat(_skills);
-  }, [skills, manualTagNames]);
+  }, [tags, manualTagNames]);
 
 
   useEffect(() => {
