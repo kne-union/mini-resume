@@ -41,7 +41,7 @@ const BasicForm=withFetch(({data})=>{
                               max={new Date()}
                               placeholder="请选择出生年月(选填)"/>,
       <PhoneNumber.Item name="phone" label="电话" rule="REQ PHONE_NUMBER BLACK_PHONE"/>,
-      <PhoneNumber.Item name="otherPhone" label="备用电话"/>,
+      <PhoneNumber.Item name="otherPhone" label="备用电话" rule="PHONE_NUMBER BLACK_PHONE"/>,
       <Input.Item name="email" label="邮箱" rule="EMAIL"/>,
       <Input.Item name="otherEmail" label="备用邮箱" rule="EMAIL"/>,
       <FixView>
