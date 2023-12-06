@@ -143,6 +143,24 @@ render(<BaseExample />);
 
 ```
 
+- 教育经历表单
+- 展示教育经历表单
+- miniResume(@kne/mini-resume),miniCore(@kne/mini-core),_resumeData(@mockData/resume.json),lodash(lodash)
+
+```jsx
+const { EducationForm } = miniResume;
+const {data:resumeData} = _resumeData;
+
+const BaseExample = ()=>{
+    return <EducationForm loader={()=>{
+        return resumeData;
+    }}/>
+};
+
+render(<BaseExample />);
+
+```
+
 - 项目经历表单
 - 展示项目经历表单
 - miniResume(@kne/mini-resume),miniCore(@kne/mini-core),_resumeData(@mockData/resume.json),lodash(lodash)
