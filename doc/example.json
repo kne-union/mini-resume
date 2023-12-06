@@ -109,6 +109,29 @@
       ]
     },
     {
+      "title": "教育经历表单",
+      "description": "展示教育经历表单",
+      "code": "./education-form.js",
+      "scope": [
+        {
+          "name": "miniResume",
+          "packageName": "@kne/mini-resume"
+        },
+        {
+          "name": "miniCore",
+          "packageName": "@kne/mini-core"
+        },
+        {
+          "name": "_resumeData",
+          "packageName": "@mockData/resume.json"
+        },
+        {
+          "name": "lodash",
+          "packageName": "lodash"
+        }
+      ]
+    },
+    {
       "title": "项目经历表单",
       "description": "展示项目经历表单",
       "code": "./project-form.js",
