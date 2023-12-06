@@ -1,4 +1,4 @@
-import {Button, FixView, FormInfo, usePreset} from '@kne/mini-core';
+import {FixedButton, FixedView, FormInfo, usePreset} from '@kne/mini-core';
 import React, {useEffect, useRef} from 'react';
 import style from './style.module.scss';
 import Taro from "@tarojs/taro";
@@ -69,11 +69,11 @@ const RequireResume = ({data}) => {
             <IndustrySelect.Item name="industry" valueType="all" maxLength={3} label="行业" rule="REQ"/>,
             <FunctionSelect.Item name="function" valueType="all" maxLength={3} label="职能" rule="REQ"/>,]}/>
 
-        <FixView>
-            <Button block={true} className={style['upload-resume-btn']} type={"primary"} size={"large"}>
+        <FixedView>
+            <FixedButton block={true} className={style['upload-resume-btn']} type={"primary"} size={"large"}>
                 <SubmitButton>保存</SubmitButton>
-            </Button>
-        </FixView>
+            </FixedButton>
+        </FixedView>
     </Form>
 }
 

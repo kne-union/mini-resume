@@ -1,4 +1,4 @@
-import {Button, Enum, FixView, FormInfo, usePreset} from '@kne/mini-core';
+import {FixedButton, Enum, FixedView, FormInfo, usePreset} from '@kne/mini-core';
 import React, {useRef} from 'react';
 import {resumeTransform} from '../transform';
 import {updateResumeSingle} from './resumeApi';
@@ -74,11 +74,11 @@ const PersonalForm = withFetch(({data}) => {
             </Enum>
         ]}/>
 
-        <FixView>
-            <Button block={true} type={"primary"} size={"large"}>
+        <FixedView>
+            <FixedButton block={true} type={"primary"} size={"large"}>
                 <SubmitButton>保存</SubmitButton>
-            </Button>
-        </FixView>
+            </FixedButton>
+        </FixedView>
     </Form>
 });
 export default PersonalForm;

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, FixView, FormInfo, usePreset} from '@kne/mini-core';
+import {FixedButton, FixedView, FormInfo, usePreset} from '@kne/mini-core';
 import {withFetch} from "@kne/react-fetch";
 import {updateResumeSingle} from './resumeApi';
 
@@ -13,11 +13,11 @@ const OtherForm=withFetch(({data})=>{
   }}>
     <FormPart list={[
       <TextArea.Item name="otherInfo" label="其他内容" rule="LEN-0-10000" maxLength={10000}/>,
-      <FixView>
-        <Button type={'primary'} block={true} size={'large'}>
+      <FixedView>
+        <FixedButton type={'primary'} block={true} size={'large'}>
           <SubmitButton>保存</SubmitButton>
-        </Button>
-      </FixView>]}/>
+        </FixedButton>
+      </FixedView>]}/>
   </Form>
 })
 

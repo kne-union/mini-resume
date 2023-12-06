@@ -125,6 +125,60 @@ render(<BaseExample />);
 
 ```
 
+- 求职意向表单
+- 展示求职意向表单
+- miniResume(@kne/mini-resume),miniCore(@kne/mini-core),_resumeData(@mockData/resume.json),lodash(lodash)
+
+```jsx
+const { ExpectForm } = miniResume;
+const {data:resumeData} = _resumeData;
+
+const BaseExample = ()=>{
+    return <ExpectForm loader={()=>{
+        return resumeData;
+    }}/>
+};
+
+render(<BaseExample />);
+
+```
+
+- 项目经历表单
+- 展示项目经历表单
+- miniResume(@kne/mini-resume),miniCore(@kne/mini-core),_resumeData(@mockData/resume.json),lodash(lodash)
+
+```jsx
+const { ProjectForm } = miniResume;
+const {data:resumeData} = _resumeData;
+
+const BaseExample = ()=>{
+    return <ProjectForm loader={()=>{
+        return resumeData;
+    }}/>
+};
+
+render(<BaseExample />);
+
+```
+
+- 语言表单
+- 展示语言表单
+- miniResume(@kne/mini-resume),miniCore(@kne/mini-core),_resumeData(@mockData/resume.json),lodash(lodash)
+
+```jsx
+const { LanguageForm } = miniResume;
+const {data:resumeData} = _resumeData;
+
+const BaseExample = ()=>{
+    return <LanguageForm loader={()=>{
+        return resumeData;
+    }}/>
+};
+
+render(<BaseExample />);
+
+```
+
 
 ### API
 
