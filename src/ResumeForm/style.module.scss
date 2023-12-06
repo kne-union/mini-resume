@@ -74,5 +74,13 @@
   margin-right: 16px;
 }
 .flex-2{
-  flex: 2;;
+  flex: 2;
+
+  :global {
+    .adm-button {
+      padding: 0 48px;
+      font-size: 32px;
+      line-height: 68px;
+    }
+  }
 }
