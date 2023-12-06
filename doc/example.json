@@ -84,6 +84,75 @@
           "packageName": "lodash"
         }
       ]
+    },
+    {
+      "title": "求职意向表单",
+      "description": "展示求职意向表单",
+      "code": "./expect-form.js",
+      "scope": [
+        {
+          "name": "miniResume",
+          "packageName": "@kne/mini-resume"
+        },
+        {
+          "name": "miniCore",
+          "packageName": "@kne/mini-core"
+        },
+        {
+          "name": "_resumeData",
+          "packageName": "@mockData/resume.json"
+        },
+        {
+          "name": "lodash",
+          "packageName": "lodash"
+        }
+      ]
+    },
+    {
+      "title": "项目经历表单",
+      "description": "展示项目经历表单",
+      "code": "./project-form.js",
+      "scope": [
+        {
+          "name": "miniResume",
+          "packageName": "@kne/mini-resume"
+        },
+        {
+          "name": "miniCore",
+          "packageName": "@kne/mini-core"
+        },
+        {
+          "name": "_resumeData",
+          "packageName": "@mockData/resume.json"
+        },
+        {
+          "name": "lodash",
+          "packageName": "lodash"
+        }
+      ]
+    },
+    {
+      "title": "语言表单",
+      "description": "展示语言表单",
+      "code": "./language-form.js",
+      "scope": [
+        {
+          "name": "miniResume",
+          "packageName": "@kne/mini-resume"
+        },
+        {
+          "name": "miniCore",
+          "packageName": "@kne/mini-core"
+        },
+        {
+          "name": "_resumeData",
+          "packageName": "@mockData/resume.json"
+        },
+        {
+          "name": "lodash",
+          "packageName": "lodash"
+        }
+      ]
     }
   ]
 }
