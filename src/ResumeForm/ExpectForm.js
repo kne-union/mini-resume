@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Enum, FixView, FormInfo, usePreset} from '@kne/mini-core';
+import {FixedButton, Enum, FixedView, FormInfo, usePreset} from '@kne/mini-core';
 import {resumeTransform} from '../transform';
 import {updateResumeSingle} from './resumeApi';
 import {withFetch} from "@kne/react-fetch";
@@ -55,11 +55,11 @@ const ExpectForm = withFetch(({data}) => {
       <IndustrySelect.Item name="expectedIndustry" valueType="all" maxLength={3} label="期望行业"/>,
     ]}/>
 
-    <FixView>
-      <Button block={true} type={"primary"} size={"large"}>
+    <FixedView>
+      <FixedButton block={true} type={"primary"} size={"large"}>
         <SubmitButton>保存</SubmitButton>
-      </Button>
-    </FixView>
+      </FixedButton>
+    </FixedView>
   </Form>
 });
 export default ExpectForm;

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, FixView, FormInfo, usePreset} from '@kne/mini-core';
+import {FixedButton, FixedView, FormInfo, usePreset} from '@kne/mini-core';
 import {View} from "@tarojs/components";
 import style from "./style.module.scss";
 import {withFetch} from "@kne/react-fetch";
@@ -44,11 +44,11 @@ const BasicForm=withFetch(({data})=>{
       <PhoneNumber.Item name="otherPhone" label="备用电话" rule="PHONE_NUMBER BLACK_PHONE"/>,
       <Input.Item name="email" label="邮箱" rule="EMAIL"/>,
       <Input.Item name="otherEmail" label="备用邮箱" rule="EMAIL"/>,
-      <FixView>
-        <Button type={'primary'} block={true} size={'large'}>
+      <FixedView>
+        <FixedButton type={'primary'} block={true} size={'large'}>
           <SubmitButton>保存</SubmitButton>
-        </Button>
-      </FixView>]}/>
+        </FixedButton>
+      </FixedView>]}/>
   </Form>
 })
 
