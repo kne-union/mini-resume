@@ -7,7 +7,7 @@ import {FixedButton, FixedView} from '@kne/mini-core'
 
 const FormFooter = ({name, label, onDelete}) => {
   return <FixedView>
-    {typeof onDelete === 'function' ? <>
+    {typeof onDelete === 'function' || true ? <>
       <FixedButton className={style['flex-1']} type="default" onClick={() => {
         return new Promise((resolve) => {
           // 这里的颜色后面需要修改
