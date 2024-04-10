@@ -18,7 +18,6 @@ const Language = withFetch(({ data,index }) => {
       <Enum moduleName="levelEnum" >
         {data => {
           return <Picker.Item
-            arrow
             name="level"
             label="语言等级"
             interceptor="picker-single"
