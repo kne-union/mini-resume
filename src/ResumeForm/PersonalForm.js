@@ -34,7 +34,6 @@ const PersonalForm = withFetch(({data}) => {
             <InputNumber.Item name="weight" hiddenController label={"体重"} addonAfter="kg" min={0} max={1000}/>,
             <Enum moduleName="nationEnum">{(data) => {
                 return <Picker.Item
-                    arrow
                     name="race"
                     label="民族"
                     interceptor="picker-single"
@@ -47,7 +46,6 @@ const PersonalForm = withFetch(({data}) => {
             <Enum moduleName="marital">
                 {data => {
                     return <Picker.Item
-                        arrow
                         name="marital"
                         label="婚姻状况"
                         interceptor="picker-single"
@@ -61,7 +59,6 @@ const PersonalForm = withFetch(({data}) => {
             <Enum moduleName="political">
                 {data => {
                     return <Picker.Item
-                        arrow
                         name="politicalStatus"
                         label="政治面貌"
                         interceptor="picker-single"

@@ -38,7 +38,6 @@ const EducationForm = withFetch(({data, index}) => {
             name="time" label="时间" rule="REQ" soFar/>, <Enum moduleName="degreeEnum">
             {data => {
                 return <Picker.Item
-                    arrow
                     name="degree"
                     label="学历"
                     interceptor="picker-single"

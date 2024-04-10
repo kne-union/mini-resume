@@ -42,7 +42,6 @@ const WorkForm = withFetch(({data, index}) => {
                 name="time" label="时间" rule="REQ" soFar/>, <Enum moduleName="companyTypeEnum">
                 {data => {
                     return <Picker.Item
-                        arrow
                         name="type"
                         label="公司性质"
                         interceptor="picker-single"
@@ -54,7 +53,6 @@ const WorkForm = withFetch(({data, index}) => {
             </Enum>, <Enum moduleName="companyScaleEnum">
                 {data => {
                     return <Picker.Item
-                        arrow
                         name="scale"
                         label="公司规模"
                         interceptor="picker-single"
