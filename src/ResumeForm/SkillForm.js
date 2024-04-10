@@ -20,7 +20,6 @@ const SkillForm = withFetch(({ data,index }) => {
       <Enum moduleName="levelEnum" >
         {data => {
           return <Picker.Item
-            arrow
             name="level"
             label="技能等级"
             interceptor="picker-single"

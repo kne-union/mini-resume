@@ -16,7 +16,6 @@ const ExpectForm = withFetch(({data}) => {
       <Enum moduleName="currentStatusEnum">
         {data => {
           return <Picker.Item
-            arrow
             name="currentStatus"
             label="求职状况"
             interceptor="picker-single"
@@ -30,7 +29,6 @@ const ExpectForm = withFetch(({data}) => {
       <Enum moduleName="positionTypeEnum">
         {data => {
           return <Picker.Item
-            arrow
             name="currentType"
             label="求职类型"
             interceptor="picker-single"

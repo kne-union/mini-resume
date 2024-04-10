@@ -33,9 +33,7 @@ const BasicForm=withFetch(({data})=>{
           label="性别"
           options={[{label: '男', value: "M"}, {label: '女', value: "F"}]}/>
       </View>,
-      <Picker.DatePicker.Item label="出生年月" name="birth"
-                              arrow={true}
-                              precision='month'
+      <Picker.DatePicker.Item label="出生年月" name="birth" precision='month'
                               format='YYYY-MM'
                               min={new Date('1949-10')}
                               max={new Date()}
